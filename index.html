@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex">
+    <title>ID Verification</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>ID Verification Form</h2>
+        <form id="idVerificationForm">
+            <!-- <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br>
+
+            <label for="idNumber">ID Number:</label>
+            <input type="text" id="idNumber" name="idNumber" required><br>
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required><br> -->
+
+            <label for="nidFront">NID Front:</label>
+            <input type="file" id="nidFront" name="nidFront" accept="image/*" required><br>
+
+            <label for="nidBack">NID Back:</label>
+            <input type="file" id="nidBack" name="nidBack" accept="image/*" required><br>
+
+            <label for="selfieWithNidFront">Selfie with NID Front:</label>
+            <input type="file" id="selfieWithNidFront" name="selfieWithNidFront" accept="image/*" required><br>
+
+            <label for="selfieWithNidBack">Selfie with NID Back:</label>
+            <input type="file" id="selfieWithNidBack" name="selfieWithNidBack" accept="image/*" required><br>
+
+            <label for="selfieWithPaper">Selfie with White Paper:</label>
+            <input type="file" id="selfieWithPaper" name="selfieWithPaper" accept="image/*" required><br>
+
+            <button type="submit">Submit</button>
+        </form>
+        <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
