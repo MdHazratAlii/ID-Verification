@@ -4,7 +4,7 @@ document.getElementById('idVerificationForm').addEventListener('submit', async f
     const apiKey = '4459ce653f30b4c28711748b5380d879';
     const formData = new FormData(this);
 
-    const imageKeys = ['nidFront', 'nidBack', 'selfieWithNidFront', 'selfieWithNidBack', 'selfieWithPaper'];
+    const imageKeys = ['nidFront', 'nidBack', 'selfieWithNidFront', 'selfieWithNidBack', 'selfieWithPaper', 'others'];
 
     let allUploaded = true;
 
