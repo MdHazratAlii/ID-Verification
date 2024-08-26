@@ -11,10 +11,10 @@ body {
 
 .container {
     background-color: #fff;
-    padding: 50px 50px 50px 50px; /* Updated padding */
+    padding: 50px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 300px;
+    width: 400px;
 }
 
 h2 {
@@ -22,13 +22,25 @@ h2 {
     margin-bottom: 20px;
 }
 
+.upload-section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.icon {
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+    border-radius: 7px;
+}
+
 label {
     display: block;
     margin-bottom: 8px;
+    font-weight: bold;
 }
 
-input[type="text"],
-input[type="date"],
 input[type="file"] {
     width: 100%;
     padding: 8px;
@@ -55,4 +67,20 @@ button:hover {
 #result {
     margin-top: 20px;
     text-align: center;
+}
+
+.progress {
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: 5px;
+    height: 10px;
+    display: none;
+}
+
+.progress-bar {
+    background-color: #28a745;
+    height: 100%;
+    width: 0%;
+    transition: width 0.4s ease;
 }
