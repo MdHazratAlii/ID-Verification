@@ -11,29 +11,60 @@
     <div class="container">
         <h2>ID Verification Form</h2>
         <form id="idVerificationForm">
-            <!-- <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required><br>
+            <div class="upload-section">
+                <img src="n-f.jpeg" alt="NID Front Icon" class="icon">
+                <div>
+                    <label for="nidFront">NID Front:</label>
+                    <input type="file" id="nidFront" name="nidFront" accept="image/*" required>
+                    <div class="progress">
+                        <div class="progress-bar" id="progress-nidFront"></div>
+                    </div>
+                </div>
+            </div>
 
-            <label for="idNumber">ID Number:</label>
-            <input type="text" id="idNumber" name="idNumber" required><br>
+            <div class="upload-section">
+                <img src="n-b.jpeg" alt="NID Back Icon" class="icon">
+                <div>
+                    <label for="nidBack">NID Back:</label>
+                    <input type="file" id="nidBack" name="nidBack" accept="image/*" required>
+                    <div class="progress">
+                        <div class="progress-bar" id="progress-nidBack"></div>
+                    </div>
+                </div>
+            </div>
 
-            <label for="dob">Date of Birth:</label>
-            <input type="date" id="dob" name="dob" required><br> -->
+            <div class="upload-section">
+                <img src="s-n-f.jpeg" alt="Selfie with NID Front Icon" class="icon">
+                <div>
+                    <label for="selfieWithNidFront">Selfie with NID Front:</label>
+                    <input type="file" id="selfieWithNidFront" name="selfieWithNidFront" accept="image/*" required>
+                    <div class="progress">
+                        <div class="progress-bar" id="progress-selfieWithNidFront"></div>
+                    </div>
+                </div>
+            </div>
 
-            <label for="nidFront">NID Front:</label>
-            <input type="file" id="nidFront" name="nidFront" accept="image/*" required><br>
+            <div class="upload-section">
+                <img src="s-n-b.jpeg" alt="Selfie with NID Back Icon" class="icon">
+                <div>
+                    <label for="selfieWithNidBack">Selfie with NID Back:</label>
+                    <input type="file" id="selfieWithNidBack" name="selfieWithNidBack" accept="image/*" required>
+                    <div class="progress">
+                        <div class="progress-bar" id="progress-selfieWithNidBack"></div>
+                    </div>
+                </div>
+            </div>
 
-            <label for="nidBack">NID Back:</label>
-            <input type="file" id="nidBack" name="nidBack" accept="image/*" required><br>
-
-            <label for="selfieWithNidFront">Selfie with NID Front:</label>
-            <input type="file" id="selfieWithNidFront" name="selfieWithNidFront" accept="image/*" required><br>
-
-            <label for="selfieWithNidBack">Selfie with NID Back:</label>
-            <input type="file" id="selfieWithNidBack" name="selfieWithNidBack" accept="image/*" required><br>
-
-            <label for="selfieWithPaper">Selfie with White Paper:</label>
-            <input type="file" id="selfieWithPaper" name="selfieWithPaper" accept="image/*" required><br>
+            <div class="upload-section">
+                <img src="s-w.jpeg" alt="Selfie with White Paper Icon" class="icon">
+                <div>
+                    <label for="selfieWithPaper">Selfie with White Paper:</label>
+                    <input type="file" id="selfieWithPaper" name="selfieWithPaper" accept="image/*" required>
+                    <div class="progress">
+                        <div class="progress-bar" id="progress-selfieWithPaper"></div>
+                    </div>
+                </div>
+            </div>
 
             <button type="submit">Submit</button>
         </form>
